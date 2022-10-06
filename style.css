@@ -1,0 +1,27 @@
+#configuration {
+    display: grid;
+    justify-items: start;
+    grid-template-columns: repeat(20, 48px);
+}
+
+
+
+
+.cell {
+    background-color: white;
+    width: 48px;
+    text-align: center;
+    height: 48px;
+    border: 1px solid black;
+    padding-top: 8px;
+}
+
+
+
+.dep {
+    background-color: aqua;
+}
+
+.current {
+    scale: 1.1;
+}
